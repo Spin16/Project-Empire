@@ -62,7 +62,7 @@ namespace GameStart
             //army1.Units.Add(UnitManager.CreateUnit("Titan", 1));
 
             Combat.InitializeAttack(army1, army2);
-            string input= "";
+           /* string input= "";
             while (input != "attack")
             {
                 if (input == "attack")
@@ -71,7 +71,7 @@ namespace GameStart
                 }
                 
                 input = Console.ReadLine();
-            }
+            }*/
         }
 
             public static class Combat 
