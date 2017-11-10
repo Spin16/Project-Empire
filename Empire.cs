@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Concurrent;
 
-namespace GameStart
+namespace Empire
 {
 
     public class Army
@@ -57,16 +57,7 @@ namespace GameStart
             //army1.Units.Add(UnitManager.CreateUnit("Titan", 1));
 
             Combat.InitializeAttack(army1, army2);
-           /* string input= "";
-            while (input != "attack")
-            {
-                if (input == "attack")
-                {
 
-                }
-                
-                input = Console.ReadLine();
-            }*/
         }
 
             public static class Combat 
@@ -239,7 +230,7 @@ namespace GameStart
 
                         debris = ((Math.Ceiling(x.Value) - Math.Ceiling(newQty)) * defendUnit.Cost * .35); //For now, 35% of army destroyed is left behind as debris.. this is likekly to change
 
-                        if (defendUnit.Partial == true)
+                        if (defendUnit.Partial)
                         {
                             defend.Units.AddOrUpdate(x.Key, x.Value, (k, v) => Math.Ceiling(newQty * 100) / 100); //if units are allowed to be partial, return partial qty to two decimals
                         }
