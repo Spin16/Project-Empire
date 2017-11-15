@@ -1,0 +1,114 @@
+[
+    {
+      "Name": "Wood",
+      "Credits": "2",
+      "Labs Level": 1,
+      "Requires": "",
+      "Description": "Increases all bases Wood output by 5%."
+    },
+    {
+      "Name": "Communications",
+      "Credits": "2",
+      "Labs Level": 1,
+      "Requires": "",
+      "Description": "Allows one campaign army per level."
+    },
+    {
+      "Name": "Armour",
+      "Credits": "4",
+      "Labs Level": 2,
+      "Requires": "",
+      "Description": "Increases units and defenses armour by 5%."
+    },
+    {
+      "Name": "Laser",
+      "Credits": "4",
+      "Labs Level": 2,
+      "Requires": "Wood 2",
+      "Description": "Increases laser weapons power by 5%."
+    },
+    {
+      "Name": "Missiles",
+      "Credits": "8",
+      "Labs Level": 4,
+      "Requires": "Communications 4",
+      "Description": "Increases missile weapons power by 5%."
+    },
+    {
+      "Name": "Stellar Drive",
+      "Credits": "16",
+      "Labs Level": 5,
+      "Requires": "Wood 6",
+      "Description": "Increases stellar units speed by 5%."
+    },
+    {
+      "Name": "Plasma",
+      "Credits": "32",
+      "Labs Level": 6,
+      "Requires": "Wood 6 + Laser 4",
+      "Description": "Increases plasma weapons power by 5%."
+    },
+    {
+      "Name": "Warp Drive",
+      "Credits": "64",
+      "Labs Level": 8,
+      "Requires": "Wood 8 + Stellar Drive 4",
+      "Description": "Increases warp units speed by 5%."
+    },
+    {
+      "Name": "Shielding",
+      "Credits": "128",
+      "Labs Level": 10,
+      "Requires": "Wood 10",
+      "Description": "Increases units and defenses shield by 5%."
+    },
+    {
+      "Name": "Ion",
+      "Credits": "256",
+      "Labs Level": 12,
+      "Requires": "Wood 12 + Laser 10",
+      "Description": "Increases ion weapons power by 5%."
+    },
+    {
+      "Name": "Photon",
+      "Credits": "1,024",
+      "Labs Level": 16,
+      "Requires": "Wood 16 + Plasma 8",
+      "Description": "Increases photon weapons power by 5%."
+    },
+    {
+      "Name": "Artificial Intelligence",
+      "Credits": "2,048",
+      "Labs Level": 18,
+      "Requires": "Communications 20",
+      "Description": "Increases all bases research output by 5%."
+    },
+    {
+      "Name": "Disruptor",
+      "Credits": "4,096",
+      "Labs Level": 20,
+      "Requires": "Wood 20 + Laser 18",
+      "Description": "Increases disruptor weapons power by 5%."
+    },
+    {
+      "Name": "Cybernetics",
+      "Credits": "8,192",
+      "Labs Level": 22,
+      "Requires": "Artificial Intelligence 6",
+      "Description": "Increases all bases construction and production by 5%."
+    },
+    {
+      "Name": "Tachyon Communications",
+      "Credits": "32,768",
+      "Labs Level": 24,
+      "Requires": "Wood 24 + Communications 24",
+      "Description": "Allows 1 research link between 2 bases (min labs 20)."
+    },
+    {
+      "Name": "Anti-Gravity",
+      "Credits": "100,000",
+      "Labs Level": 26,
+      "Requires": "Wood 26 + Communications 26",
+      "Description": "Decreases orbital structures construction time by 5% and increases Death Star speed by 5%."
+    }
+   ]
